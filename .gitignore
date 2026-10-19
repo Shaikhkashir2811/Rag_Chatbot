@@ -1,0 +1,55 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local uploads and vector database
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+backend/chroma_db/
+chroma_db/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+build/
+
+# Environment-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep README screenshot assets tracked
+# Do not ignore docs/images/

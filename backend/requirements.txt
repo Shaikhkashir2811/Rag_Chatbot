@@ -1,0 +1,33 @@
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-ollama
+langchain-huggingface
+langchain-chroma
+
+# Vector database
+chromadb
+
+# Hugging Face embeddings
+sentence-transformers
+
+# PDF processing
+pypdf
+
+# PostgreSQL integration
+sqlalchemy
+psycopg[binary]
+
+# Environment variables
+python-dotenv
+
+# psycopg[binary]
+# python-dotenv
