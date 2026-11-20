@@ -1,20 +1,3 @@
-# from langchain_huggingface import HuggingFaceEmbeddings
-# from langchain_chroma import Chroma
-# def store_to_vector_db(chunks):
-
-#     embedding_model = HuggingFaceEmbeddings(
-#         model_name="sentence-transformers/all-MiniLM-L6-v2"
-#     )
-
-#     vector_store = Chroma.from_texts(
-#         texts=chunks,
-#         embedding=embedding_model,
-#         persist_directory="chroma_db"
-#     )
-
-#     return vector_store
-
-
 from pathlib import Path
 
 from langchain_huggingface import HuggingFaceEmbeddings
